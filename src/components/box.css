@@ -1,0 +1,19 @@
+
+.square {
+    width: 100px ;
+    height: 100px;
+    border: 1px solid black;
+    cursor: pointer;
+    padding: 50px auto;
+    
+}
+
+ .square:hover{
+    background-color: rgb(207, 252, 134);
+    scale: 1.5px;
+} 
+/* 
+.square:focus {
+    background-color: red;
+    scale: 1.2px;
+  } */

@@ -1,0 +1,35 @@
+.row{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.parent{
+    opacity: 2.5;
+}
+
+.parent h1 {
+    font-weight: 200;
+}
+
+.button{
+ padding: 0px;
+ border-radius: 5px;
+ border: 1px solid black;
+ width: 200px;
+ margin: 0px auto;
+ background-color: black;
+ color: white;
+}
+
+.button :hover{
+    background-color: white;
+    color: black;
+    scale: 1.5px;
+    
+}
+
+.button >h1{
+    padding: 5px;
+    margin: 0px;
+}
